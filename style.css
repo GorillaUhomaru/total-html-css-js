@@ -1,0 +1,62 @@
+body {
+  background-color: #399e5a;
+}
+body > h1 {
+  font-style: italic;
+}
+body > h2 {
+  font-style: italic;
+}
+.name {
+  font-style: italic;
+  font-size: 15px;
+  font-weight: bold;
+  color: #2b580c;
+}
+
+.col-00 {
+  width: 90%;
+  background-color: #000;
+  color: #fff;
+}
+.col-01 {
+  background-color: #d9bf77;
+  color: #fff;
+  margin: 10pt;
+  padding: 10pt;
+  display: flex;
+  flex-wrap: wrap;
+}
+.col-01-01 {
+  margin: 0 auto;
+}
+
+.col-01-01-1 {
+  width: 240px;
+  height: 240px;
+  margin: 10px;
+}
+
+.Introduction {
+  background-color: #43d8c9;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: #27496d;
+  font-weight: bold;
+  background-color: #c02739;
+  border-radius: 20px;
+}
+a:hover {
+  color: #fa744f;
+  font-weight: bold;
+}
+.Move{
+  height:100px;
+  width:100px;
+  background-color:skyblue;
+  cursor:pointer;
+}
